@@ -17,3 +17,11 @@ output "internal_load_balancer_dns" {
 output "cloudmap_ssm" {
   value = aws_ssm_parameter.cloudmap.id
 }
+
+output "service_connect_ssm" {
+  value = aws_ssm_parameter.service_connect.id
+}
+
+output "service_connect_name_ssm" {
+  value = aws_ssm_parameter.service_connect.name
+}
